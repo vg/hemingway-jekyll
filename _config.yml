@@ -1,21 +1,17 @@
 # Syntax highlighting
-highlighter:         pygments
+highlighter:         rouge
 
 # Permalinks
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
 permalink:           pretty
-relative_permalinks: true
 
 # Setup
 title:               Jekyll Example
-tagline:             Basic example of a Jekyll site with Sass enabled.
-url:                 http://mdo.github.io/jekyll-example
-baseurl:             /jekyll-example/
+tagline:             Basic example of a Jekyll site.
+url:                 https://vg.github.io/
+baseurl:             /hemingway-jekyll/
 
 # Assets
 #
 # We specify the directory for Jekyll so we can use @imports.
-sass:
-  sass_dir:          _scss
-  style:            :compressed
