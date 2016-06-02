@@ -1,0 +1,17 @@
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+  
+  <title>
+    {% if page.title == "Home" %}
+      {{ site.title }} &middot; {{ site.tagline }}
+    {% else %}
+      {{ page.title }} &middot; {{ site.title }}
+    {% endif %}
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}css/main.css" />
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ site.baseurl }}atom.xml">
+</head>

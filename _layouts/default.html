@@ -1,0 +1,27 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+  {% include head.html %}
+
+<body>
+	<div id="header">
+		<div class="inside">
+			<h2><a href="/hemmingway">Signal vs. Noise</a></h2>
+			<p class="description">A blog by 37 Signals</p>
+		</div>
+	</div>
+	<!-- [END] #header -->
+
+      {{ content }}
+
+	<hr class="hide" />
+	<div id="footer">
+		<div class="inside">
+			<p class="copyright">&copy;{{ site.time | date: '%Y' }}. All rights reserved. Kyle Neath</p>
+			<p class="attributes"><a href="#">Valid XHTML</a> <a href="#">Valid CSS</a></p>
+		</div>
+	</div>
+	<!-- [END] #footer -->
+	
+</body>
+</html>

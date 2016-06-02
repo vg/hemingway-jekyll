@@ -1,0 +1,43 @@
+---
+layout: default
+---
+
+	<div id="primary" class="single-post">
+		<div class="inside">
+			<div class="primary">
+				<h1>{{ page.title }}</h1>
+				
+			{{ content }}
+			</div>
+			<hr class="hide" />
+			<div class="secondary">
+				<h2>About this entry</h2>
+				<div class="featured">
+					<p>You&rsquo;re currently reading &ldquo;What Mena Trott&rsquo;s mom can teach us about marketing copy,&rdquo; an entry on blog.com</p>
+					<dl>
+						<dt>Published:</dt>
+						<dd>{{ page.date | date_to_string }} / 10am</dd>
+					</dl>
+					<dl>
+						<dt>Category:</dt>
+						<dd><a href="#">Business</a></dd>
+					</dl>
+					<dl>
+						<dt>Tags:</dt>
+						<dd><a href="#">sixapart</a>, <a href="#">business</a>, <a href="#">sixapart</a>, <a href="#">sixapart</a>, <a href="#">sixapart</a>, <a href="#">sixapart</a>, <a href="#">sixapart</a>, <a href="#">sixapart</a></dd>
+					</dl>
+					<dl>
+						<dt>Related Posts:</dt>
+						<dd>{% for post in site.related_posts limit:3 %}<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>,{% endfor %}</dd>
+					</dl>
+				</div>
+				<!-- hover or click for inline-popup explination -->
+			</div>
+			<div class="clear"></div>
+		</div>
+	</div>
+	<!-- [END] #primary -->
+	
+
+	{% include secondary.html %}
+	{% include ancillary.html %}
