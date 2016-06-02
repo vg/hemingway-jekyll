@@ -4,10 +4,11 @@ highlighter:         rouge
 # Permalinks
 
 # Setup
-title:               Jekyll Example
-tagline:             Basic example of a Jekyll site.
-url:                 https://vg.github.io/
-baseurl:             /hemingway-jekyll/
+title:               "Signal vs. Noise"
+tagline:             "A blog by 37 Signals"
+description:         "This is Signal vs. Noise, a weblog by 37signals about design, customer experience, entertainment, politics, Basecamp, Backpack, products we like, small business, ourselves, and more. Established 1999 in Chicago."
+url:                 "https://vg.github.io/"
+baseurl:             "/hemingway-jekyll"
 
 # Assets
 #
