@@ -2,6 +2,7 @@
 highlighter:         rouge
 
 # Permalinks
+permalink:           none
 
 # Setup
 title:               "Signal vs. Noise"
