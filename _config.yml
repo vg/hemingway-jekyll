@@ -11,6 +11,12 @@ description:         "This is Signal vs. Noise, a weblog by 37signals about desi
 url:                 "https://vg.github.io/"
 baseurl:             "hemingway-jekyll"
 
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: post
+
 # Assets
 #
 # We specify the directory for Jekyll so we can use @imports.
