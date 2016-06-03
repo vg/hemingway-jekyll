@@ -6,8 +6,8 @@
 <body>
 	<div id="header">
 		<div class="inside">
-			<h2><a href="/hemmingway">Signal vs. Noise</a></h2>
-			<p class="description">A blog by 37 Signals</p>
+			<h2><a href="{{ site.url }}{{ site.baseurl }}">{{ site.title }}</a></h2>
+			<p class="description">{{ site.tagline }}</p>
 		</div>
 	</div>
 	<!-- [END] #header -->
@@ -17,7 +17,7 @@
 	<hr class="hide" />
 	<div id="footer">
 		<div class="inside">
-			<p class="copyright">&copy;{{ site.time | date: '%Y' }}. All rights reserved. Kyle Neath</p>
+			<p class="copyright">&copy;{{ site.time | date: '%Y' }} {{ site.author }}</p>
 			<p class="attributes"><a href="#">Valid XHTML</a> <a href="#">Valid CSS</a></p>
 		</div>
 	</div>
